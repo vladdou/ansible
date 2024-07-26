@@ -1,0 +1,441 @@
+repo_name: vladdou/ansible
+report_id: cfb9e4d7306fcb0a99c0e7af891cef06
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-26T05:41:42+00:00'
+requested_by: ChanderG
+provider: github
+branch: devel
+detected_tools_count: 36
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/vladdou/ansible
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/vladdou/ansible
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/sanity.pylint.txt
+  detection_source: test/lib/ansible_test/_data/requirements/sanity.pylint.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2020-06-09 20:38:36.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  version: '2.11'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/integration/targets/template_jinja2_latest/requirements.txt
+  detection_source: docs/docsite/requirements.txt
+  last_updated_by: Alicia Cozine
+  last_updated_on: 2019-06-17 19:32:01.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/vladdou/ansible
+  detection_source: Repo Metadata
+- name: Azure Cosmos DB
+  description: A fully-managed, globally distributed NoSQL database service
+  website_url: https://azure.microsoft.com/en-us/services/cosmos-db/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: NoSQL Database as a Service
+  image_url: https://img.stackshare.io/service/1369/nquiptD9.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/integration.cloud.azure.txt
+  detection_source: test/lib/ansible_test/_data/requirements/integration.cloud.azure.txt
+  last_updated_by: haiyuan_zhang
+  last_updated_on: 2020-01-16 01:24:39.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/integration.cloud.azure.txt
+  detection_source: test/lib/ansible_test/_data/requirements/integration.cloud.azure.txt
+  last_updated_by: haiyuan_zhang
+  last_updated_on: 2020-01-16 01:24:39.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/support/integration/plugins/modules/mongodb_parameter.py
+  detection_source: test/support/integration/plugins/modules/mongodb_parameter.py
+  last_updated_by: Matt Clay
+  last_updated_on: 2020-02-29 04:37:50.000000000 Z
+- name: Ansible
+  description: Radically simple configuration-management, application deployment,
+    task-execution, and multi-node orchestration engine
+  website_url: http://www.ansible.com/
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/663/ElOjna20.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/examples/ansible.cfg
+  detection_source: examples/ansible.cfg
+  last_updated_by: antonc42
+  last_updated_on: 2021-04-28 21:14:56.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/.azure-pipelines/azure-pipelines.yml
+  detection_source: ".azure-pipelines/azure-pipelines.yml"
+  last_updated_by: Alexander Sowitzki
+  last_updated_on: 2021-03-10 21:56:03.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/vladdou/ansible
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/vladdou/ansible
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/units/requirements.txt
+  detection_source: test/units/requirements.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2019-09-12 09:00:33.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.6.0
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/sanity.pylint.txt
+  detection_source: test/lib/ansible_test/_data/requirements/sanity.pylint.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2021-02-12 00:45:53.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/lib/ansible/galaxy/data/apb/.travis.yml
+  detection_source: lib/ansible/galaxy/data/apb/.travis.yml
+  last_updated_by: David Zager
+  last_updated_on: 2018-06-14 21:05:30.000000000 Z
+- name: isort
+  description: A Python utility / library to sort imports
+  website_url: https://pycqa.github.io/isort/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4835/default_0a87fe83d3c6dc2bd452e7bf2428b32269c080d2.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/sanity.pylint.txt
+  detection_source: test/lib/ansible_test/_data/requirements/sanity.pylint.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2021-02-12 00:45:53.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/sanity.pylint.txt
+  detection_source: test/lib/ansible_test/_data/requirements/sanity.pylint.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2020-06-09 20:38:36.000000000 Z
+- name: pip
+  description: A package installer for Python
+  website_url: https://pypi.org/project/pip/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/integration/targets/groupby_filter/requirements.txt
+  detection_source: test/integration/targets/groupby_filter/requirements.txt
+  last_updated_by: Sam Doran
+  last_updated_on: 2021-05-12 02:59:44.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/constraints.txt
+  detection_source: test/lib/ansible_test/_data/requirements/constraints.txt
+  last_updated_by: Sandra McCann
+  last_updated_on: 2021-01-14 19:50:44.000000000 Z
+- name: 'unittest '
+  description: A unit testing framework for Python
+  website_url: http://pythontesting.net/framework/unittest/unittest-introduction/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/5831/no-img-open-source.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/units/requirements.txt
+  detection_source: test/units/requirements.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2019-09-12 09:00:33.000000000 Z
+- name: Microsoft Azure
+  description: Integrated cloud services and infrastructure to support computing,
+    database, analytics, mobile, and web scenarios.
+  website_url: https://azure.microsoft.com/en-us/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Cloud Hosting
+  image_url: https://img.stackshare.io/service/213/default_88defae415fcb9cd0ac5d36c1ed27e74133c6287.jpg
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/integration.cloud.azure.txt
+  detection_source: test/lib/ansible_test/_data/requirements/integration.cloud.azure.txt
+  last_updated_by: haiyuan_zhang
+  last_updated_on: 2020-01-16 01:24:39.000000000 Z
+- name: Red Hat OpenShift
+  description: Red Hat's free Platform as a Service (PaaS) for hosting Java, PHP,
+    Ruby, Python, Node.js, and Perl apps
+  website_url: https://www.openshift.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/197/default_d69814fad86744595b3b0b30ef84c36c09c70902.jpg
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/constraints.txt
+  detection_source: test/lib/ansible_test/_data/requirements/constraints.txt
+  last_updated_by: Sam Doran
+  last_updated_on: 2019-08-08 19:28:40.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/vladdou/ansible
+  detection_source: Repo Metadata
+- name: PyYAML
+  website_url: http://pyyaml.org/wiki/PyYAML
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/constraints.txt
+  detection_source: test/lib/ansible_test/_data/requirements/constraints.txt
+  last_updated_by: Felix Fontein
+  last_updated_on: 2019-06-18 15:56:33.000000000 Z
+- name: Requests
+  description: Elegant and simple HTTP library for Python
+  website_url: http://docs.python-requests.org/en/latest/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Transfer
+  image_url: https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/constraints.txt
+  detection_source: test/lib/ansible_test/_data/requirements/constraints.txt
+  last_updated_by: Sam Doran
+  last_updated_on: 2021-05-12 02:59:44.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/vladdou/ansible
+  detection_source: Repo Metadata
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/constraints.txt
+  detection_source: test/lib/ansible_test/_data/requirements/constraints.txt
+  last_updated_by: Sandra McCann
+  last_updated_on: 2021-01-14 19:50:44.000000000 Z
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/packaging/debian/Dockerfile
+  detection_source: packaging/debian/Dockerfile
+  last_updated_by: Shane McDonald
+  last_updated_on: 2016-10-26 21:24:15.000000000 Z
+- name: boto
+  website_url: https://github.com/boto/boto
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2764/327752.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/integration.cloud.aws.txt
+  detection_source: test/lib/ansible_test/_data/requirements/integration.cloud.aws.txt
+  last_updated_by: Rémi REY
+  last_updated_on: 2019-02-25 20:27:33.000000000 Z
+- name: docutils
+  description: "http://t.co/lH6rcPxBja Service Outage and other informational alerts.\r\n\r\nFor
+    support, see ticket/IRC/email information on http://t.co/nE5akSwLqM"
+  website_url: http://docutils.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8480/LI68uG-2_normal.jpg
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/sanity/code-smell/package-data.requirements.txt
+  detection_source: test/sanity/code-smell/package-data.requirements.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2020-06-09 20:38:36.000000000 Z
+- name: setuptools
+  website_url: https://github.com/pypa/setuptools
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10517/647025.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/constraints.txt
+  detection_source: test/lib/ansible_test/_data/requirements/constraints.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2020-03-29 04:33:13.000000000 Z
+- name: virtualenv
+  description: Local environment for python
+  website_url: https://virtualenv.pypa.io/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3581/no-img-open-source.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/lib/ansible_test/_data/requirements/constraints.txt
+  detection_source: test/lib/ansible_test/_data/requirements/constraints.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2018-09-03 16:34:22.000000000 Z
+- name: passlib
+  description: Comprehensive password hashing framework supporting over 30 schemes
+  package_url: https://pypi.org/project/passlib
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19992/default_aa5b3e77340c2bb80cd8e6a59cd82909abcdcd63.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/units/requirements.txt
+  detection_source: test/units/requirements.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2019-09-12 09:00:33.000000000 Z
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/project/pexpect
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/units/requirements.txt
+  detection_source: test/units/requirements.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2019-09-12 09:00:33.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/units/requirements.txt
+  detection_source: test/units/requirements.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2019-09-12 09:00:33.000000000 Z
+- name: unittest2
+  description: The new features in unittest backported to Python 2.4+
+  package_url: https://pypi.org/project/unittest2
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20451/default_59d62a07c53d1fab2755686ea36d4608e808dcf6.png
+  detection_source_url: https://github.com/vladdou/ansible/blob/devel/test/units/requirements.txt
+  detection_source: test/units/requirements.txt
+  last_updated_by: Matt Clay
+  last_updated_on: 2019-09-12 09:00:33.000000000 Z
